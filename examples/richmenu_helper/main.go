@@ -31,8 +31,8 @@ func main() {
 	)
 	flag.Parse()
 	bot, err := linebot.New(
-		os.Getenv("CHANNEL_SECRET"),
-		os.Getenv("CHANNEL_TOKEN"),
+		os.Getenv("903ece3d21da4562f3d8562b8178229f"),
+		os.Getenv("rzhg/AhZxxdx3Gb+Rb7CkQzrNptpRGS1JROudD6UJ6i0kd4QrLAl4oA36XXnpnEdGIpeMvgA0+Oi3noMuIi2p4ZDi0UQpgRJuCt8j11xSq8Jys7NSFUx+X2uJU+Ddiz9/LU4c86f5a3L0B61PDeulAdB04t89/1O/w1cDnyilFU="),
 	)
 	if err != nil {
 		log.Fatal(err)
